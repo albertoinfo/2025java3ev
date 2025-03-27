@@ -33,7 +33,7 @@ public class TestColecciones {
 		lista.add("Ana");
 		lista.add("Luis");
 		
-		System.out.println(lista.get(1)
+		//System.out.println(lista.get(1)); 
 		
 		
 		System.out.println(" Nº de elementos ="+lista.size());
