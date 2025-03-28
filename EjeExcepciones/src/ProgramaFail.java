@@ -5,10 +5,10 @@ public class ProgramaFail
     public static void main ( String argv[]) {
     // Incluir los tratamiento de excepciones adecuados.
     
-    metodoQueFalla();
     
     
-    /*
+    
+    
     	
     try {	
        metodoQueFalla();      
@@ -25,7 +25,7 @@ public class ProgramaFail
     catch ( ArrayIndexOutOfBoundsException e) {
     	System.out.println(" NO existe la posición  ");
     }
-    */
+    
     
     System.out.println(" FIN PROGRAMA ");
        

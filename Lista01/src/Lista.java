@@ -9,7 +9,6 @@ public class Lista
     {
       inicio = null;
     }
-
     /**
      *  Pon un elemento al principio de la lista
      */
