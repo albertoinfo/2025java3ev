@@ -30,6 +30,10 @@ public class TestHashMap {
 		Alumno al = ma.remove(9052);  // Devuelve el objeto borrado
 		ma.remove(1111); // Devuelve Null
 		
+		if (  ma.containsKey(9052) ) {
+			  System.out.println(" El mapa contiene "+ ma.get(9052));
+		}
+		
 		// Lo vuelvo a introducir
 		ma.put( al.nummatricula, al); 
 		
@@ -67,7 +71,7 @@ public class TestHashMap {
 		}
 		
 		
-		System.out.println("\nLista de ORDENADA todos las valores:");
+		System.out.println("\nLista de ORDENADA todos NOMBRES:");
 		// Siempre podemos ordenar los valores o las claves si obtenemos la lista de valores y la ordenamos
 		List <Alumno> listalum = new ArrayList <Alumno> (ma.values());
 		
