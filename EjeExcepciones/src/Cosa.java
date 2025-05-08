@@ -5,7 +5,7 @@ class Cosa {
     	if (valor == 0) throw new ExceptionCero();
         this.valor = valor;
     }
-    
+      
     int getValor (){
         return valor;
     }
