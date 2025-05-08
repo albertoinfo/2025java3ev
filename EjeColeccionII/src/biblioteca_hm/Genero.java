@@ -1,4 +1,4 @@
-package biblioteca2;
+package biblioteca_hm;
 
 /**
  * Enumeration class Genero - Distintos valores de genero literario

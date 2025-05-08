@@ -1,4 +1,4 @@
-package biblioteca2;
+package biblioteca_ar;
 
 /**
  * Clase de libro.
